@@ -1,0 +1,41 @@
+
+
+
+
+
+/* Body Background with Image and Transparent Overlay */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* يجعل الارتفاع يغطي الشاشة بالكامل */
+    font-family: Arial, sans-serif;
+    background: url('public/Image.jpg') no-repeat center center fixed; /* استبدل بـ مسار الصورة */
+    background-size: cover; /* تجعل الصورة تغطي الصفحة بالكامل */
+    position: relative; /* لضمان وضع الطبقة الشفافة */
+}
+
+/* Transparent Overlay */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7); /* طبقة شفافة بيضاء */
+    z-index: 1; /* تضمن أن المحتوى فوق الطبقة */
+}
+
+/* المحتوى الأساسي */
+.container {
+    position: relative; /* لضمان بقاء المحتوى فوق الطبقة */
+    z-index: 2; /* يجعل العنصر فوق الطبقة الشفافة */
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background: rgba(92, 64, 51, 0.8); /* خلفية بنية شفافة */
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* تأثير الظل */
+    color: #FFF8E7; /* لون النص */
+}

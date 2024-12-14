@@ -1,0 +1,393 @@
+{
+  "currencies": [
+    {
+      "Currency denomination": "200",
+      "Serial Number": "٥٤٨١٩٤٢ ي/٢٧١",
+      "Date": "8/6/2023",
+      "place": "نيابه 6 أكتوبر بمحافظة الجيزه ",
+      "stamp":"Ink jet",
+      "Degree":"low",
+      "msg": "This currency has been  forged before and its stored information is"
+    },
+    {
+      "Currency denomination": "200",
+      "Serial Number": "٩١٩٣٣٠٤ ي/٤٠٠",
+      "Date": "12/10/2016",
+      "place": "نيابه الزقازيق بمحافظة الشرقية ",
+      "stamp":"Ink jet",
+      "Degree":"average",
+      "msg": "This currency has been  forged before and its stored information is"
+    },
+    {
+      "Currency denomination": "200",
+      "Serial Number": "٥٥٨٨٠٩٤ ي/١٢١",
+      "Date": "6/12/2015",
+      "place": "نيابه بنها بمحافظة القليوبية ",
+      "stamp":"Laser",
+      "Degree":"high",
+      "msg": "This currency has been  forged before and its stored information is"
+    },
+    {
+      "Currency denomination": "200",
+      "Serial Number": "٤٥٤٣٢٥٤ ن/٦٩٨",
+      "Date": "2/1/2024",
+      "place": "نيابه جرجا بمحافظة سوهاج ",
+      "stamp":"Ink jet",
+      "Degree":"average",
+      "msg": "This currency has been  forged before and its stored information is"
+    },
+    {
+      "Currency denomination": "100",
+      "Serial Number": "٧١٨٥٢٥٨ ن/٦٧٢",
+      "Date": "18/9/2023",
+      "place": "نيابه كفر الدوار بمحافظة البحيره",
+      "stamp":"Laser",
+      "Degree":"Professionalism",
+      "msg": "This currency has been  forged before and its stored information is"
+    },
+    {
+      "Currency denomination": "200",
+      "Serial Number": "٥٤٨١٩٤٢ ي/٤٧٩",
+      "Date": "8/6/2023",
+      "place": "نيابه زفتي بمحافظة الغربيه ",
+      "stamp":"Laser ",
+      "Degree":"high",
+      "msg": "This currency has been  forged before and its stored information is"
+    },
+    {
+      "Currency denomination": "200",
+      "Serial Number": "٧٣٤٦٨٧٣ ي/٢٧١",
+      "Date": "17/5/2020",
+      "place": "نيابه شبين الكوم بمحافظة المنوفية ",
+      "stamp":"Laser ",
+      "Degree":"Professionalism",
+      "msg": "This currency has been  forged before and its stored information is"
+    },
+    {
+      "Currency denomination": "100",
+      "Serial Number": "٨٤١٧٧٦٧ ن/٥٣٥",
+      "Date": "15/12/2021",
+      "place": "نيابه جنوب القاهره بمحافظة القاهره ",
+      "stamp":"Ink jet",
+      "Degree":"average",
+      "msg": "This currency has been  forged before and its stored information is"
+    },
+    {
+      "Currency denomination": "100",
+      "Serial Number": "٩٠٣٥٩٢٥ ن/٥٨١",
+      "Date": "16/10/2022",
+      "place": "نيابه طلخا بمحافظة الدقهلية ",
+      "stamp":"Ink jet",
+      "Degree":"low",
+      "msg": "This currency has been  forged before and its stored information is"
+    }
+  ],
+  "lethaldose": [
+    {
+      "Drug/Poison Name": "Paracetamol",
+      "ld": 338,
+      "Route of administration": "Oral"
+    },
+    {
+      "Drug/Poison Name": "Asprin",
+      "ld": 200,
+      "Route of administration": "Oral"
+    },
+    {
+      "Drug/Poison Name": "Ibuprofen",
+      "ld": 636,
+      "Route of administration": "Oral"
+    },
+    {
+      "Drug/Poison Name": "Morphine",
+      "ld": 200,
+      "Route of administration": "Oral"
+    },
+    {
+      "Drug/Poison Name": "Caffeine",
+      "ld": 190,
+      "Route of administration": "Oral"
+    },
+    {
+      "Drug/Poison Name": "Sodium cyanide",
+      "ld": 5,
+      "Route of administration": "Oral"
+    },
+    {
+      "Drug/Poison Name": "Ricim",
+      "ld": 0.0003,
+      "Route of administration": "Oral"
+    },
+    {
+      "Drug/Poison Name": "Mercury",
+      "ld": 1.5,
+      "Route of administration": "Oral"
+    },
+    {
+      "Drug/Poison Name": "Arsenic",
+      "ld": 1,
+      "Route of administration": "Oral"
+    },
+    {
+      "Drug/Poison Name": "Botulinum toxin",
+      "ld": 0.0001,
+      "Route of administration": "Inhaled"
+    }
+  ],
+  "drugidentification": [
+    {
+      "img":"./public/tramadol.jpg",
+      "msg": "This drug sample has been stored before and its information is",
+      "Name": "Tramadol",
+      "Colour": "White",
+      "Size": "11.00mg",
+      "Type": "Tab",
+      "Imprint": "93 58"
+    },
+    {
+      "img":"./public/diazepam.jpg",
+      "msg": "This drug sample has been stored before and its information is",
+      "Name": "Diazepam",
+      "Colour": "Yellow",
+      "Size": "8.00mg",
+      "Type": "Tab",
+      "Imprint": "TEVA 3926"
+    },
+    {
+      "img":"./public/xanax.jpg",
+      "msg": "This drug sample has been stored before and its information is",
+      "Name": "Xanax",
+      "Colour": "White",
+      "Size": "15.00mg",
+      "Type": "Tab",
+      "Imprint": "XANAX 2"
+    },
+    {
+      "img":"./public/mrphine.jpg",
+      "msg": "This drug sample has been stored before and its information is",
+      "Name": "Morphine",
+      "Colour": "Purple",
+      "Size": "7.00mg",
+      "Type": "Tab",
+      "Imprint": "30M"
+    },
+    {
+      "img":"./public/advil.jpg",
+      "msg": "This drug sample has been stored before and its information is",
+      "Name": "Advil",
+      "Colour": "Brown",
+      "Size": "11.00mg",
+      "Type": "Tab",
+      "Imprint": "Advil"
+    },
+    {
+      "img":"./public/vicodin1.jpg",
+      "msg": "This drug sample has been stored before and its information is",
+      "Name": "Vicodin",
+      "Colour": "White",
+      "Size": "14.00mg",
+      "Type": "Tab",
+     "Imprint": "VICODIN5  300"
+    },
+    {
+      "img":"./public/oxycodone.jpg",
+      "msg": "This drug sample has been stored before and its information is",
+      "Name": "Oxycodone",
+      "Colour": "White",
+      "Size": "10.00mg",
+      "Type": "Tab",
+      "Imprint": "OC 10"
+    },
+    {
+      "img":"./public/vicodine2.jpg",
+      "msg": "This drug sample has been stored before and its information is",
+      "Name": "Vicodin",
+      "Colour": "White",
+      "Size": "5.00mg",
+      "Type": "Tab",
+      "Imprint": "V 35 92"
+    },
+    {
+      "img":"./public/dolophine.jpg",
+      "msg": "This drug sample has been stored before and its information is",
+      "Name": "Dolophine",
+      "Colour": "White",
+      "Size": "10.00mg",
+      "Type": "Tab",
+      "Imprint": "M 57 71"
+    }
+  ],
+  "Weapons": [
+    {
+      "Weapon Name": "AK-47",
+      "Serial Number": "SN12345",
+      "Projectile Shape": "Pointed (Bullet)",
+      "Number of Rounds": 30,
+      "Muzzle Diameter": "12.7 mm",
+      "Type": "Assault Rifle",
+      "Relation to Firing Distance": "Effective range up to 400 meters, designed for accuracy and moderate penetration.",
+      "img":"./public/VAK47.jpg"
+    },
+    {
+      "Weapon Name": "Barrett M82",
+      "Serial Number": "SN56789",
+      "Projectile Shape": "Cylindrical (Bullet)",
+      "Number of Rounds": 20,
+      "Type": "Sniper Rifle",
+      "Manufacturing Location": "Barrett Firearms, USA",
+      "Muzzle Diameter": "12.7 mm",
+      "Relation to Firing Distance": "Long-range precision (up to 1,800 meters), larger diameter ensures stability and energy retention.",
+      "img":"./public/BARRETT M82.jpg"
+    },
+    {
+      "Weapon Name": "Benelli M4",
+      "Serial Number": "SN98765",
+      "Projectile Shape": "Rounded (Pellet)",
+      "Number of Rounds": 8,
+      "Type": "Shotgun",
+      "Manufacturing Location": "Benelli Armi, Italy",
+      "Muzzle Diameter": "18.5 mm",
+      "Relation to Firing Distance": "Close range (up to 50 meters), wide spread due to large diameter, suitable for multiple targets.",
+      "img":"./public/BENILELLI M4.jpg"
+    },
+    {
+      "Weapon Name": "Glock 17",
+      "Serial Number": "SN54321",
+      "Projectile Shape": "Hollow-point (Bullet)",
+      "Number of Rounds": 15,
+      "Type": "Handgun",
+      "Manufacturing Location": "Glock GmbH, Austria",
+      "Muzzle Diameter": "9 mm",
+      "Relation to Firing Distance": "Effective for short-range encounters (up to 50 meters), designed to expand upon impact.",
+      "img":"./public/GLOCK 17.jpg"
+    },
+    {
+      "Weapon Name": "MP5",
+      "Serial Number": "SN11223",
+      "Projectile Shape": "Armor-piercing (Bullet)",
+      "Number of Rounds": 10,
+      "Type": "Submachine Gun",
+      "Manufacturing Location": "Heckler & Koch, Germany",
+      "Muzzle Diameter": "4.6 mm",
+      "Relation to Firing Distance": "Effective at 200 meters, small diameter enables high penetration of armor or barriers.",
+      "img":"./public/MP5.jpg"
+    },
+    {
+      "Weapon Name": "FN M203",
+      "Serial Number": "SN33445",
+      "Projectile Shape": "Fragmentation (Shell)",
+      "Number of Rounds": 1,
+      "Type": "Grenade Launcher",
+      "Manufacturing Location": "FN Herstal, Belgium",
+      "Muzzle Diameter": "40 mm",
+      "Relation to Firing Distance": "Effective radius of explosion up to 10 meters, larger diameter accommodates explosive payload.",
+      "img":"./public/FN M203.jpg"
+    },
+    {
+      "Weapon Name": "RPG-7",
+      "Serial Number": "SN55667",
+      "Projectile Shape": "Cylindrical (Missile)",
+      "Number of Rounds": 6,
+      "Type": "Rocket Launcher",
+      "Manufacturing Location": "RPG-7, Russia",
+      "Muzzle Diameter": "85 mm",
+      "Relation to Firing Distance": "Effective against armored targets up to 500 meters, diameter allows for significant explosive charge.",
+      "img":"./public/RBG 7.jpg"
+    },
+    {
+      "Weapon Name": "Colt Python",
+      "Serial Number": "SN77889",
+      "Projectile Shape": "Conical (Bullet)",
+      "Number of Rounds": 5,
+      "Type": "Revolver",
+      "Manufacturing Location": "Colt’s Manufacturing, USA",
+      "Muzzle Diameter": "10.9 mm",
+      "Relation to Firing Distance": "Short-range weapon (up to 30 meters), ideal for personal defense and concealability.",
+      "img":"./public/COLT PYTHON.jpg"
+    },
+    {
+      "Weapon Name": "M120 Mortar",
+      "Serial Number": "SN99001",
+      "Projectile Shape": "Explosive (Shell)",
+      "Number of Rounds": 1,
+      "Type": "Mortar",
+      "Manufacturing Location": "IMI Systems, Israel",
+      "Muzzle Diameter": "81 mm",
+      "Relation to Firing Distance": "Indirect fire weapon with ranges up to 6,000 meters, muzzle size allows for high explosive payload delivery.",
+      "img":"./public/M120 MORTAR.jpg"
+    },
+    {
+      "Weapon Name": "Leopard 2 Cannon",
+      "Serial Number": "SN10101",
+      "Projectile Shape": "Ball-shaped (Shell)",
+      "Number of Rounds": 1,
+      "Type": "Tank Cannon",
+      "Manufacturing Location": "Rheinmetall, Germany",
+      "Muzzle Diameter": "120 mm",
+      "Relation to Firing Distance": "High-explosive anti-tank shells effective at 3,000 meters, large diameter ensures maximum destructive impact.",
+      "img":"./public/LEOPARD 2CANNON.jpg"
+    }
+  ],
+  "pens": [
+    {
+      "Pen Name": "Pilot Gel Pen",
+      "Ink Color": "Black",
+      "Chemical Composition": "Water-based gel ink (dye-based)",
+      "Identification Reaction": "UV light reveals the ink's fluorescence."
+    },
+    {
+      "Pen Name": "Schneider Ballpen",
+      "Ink Color": "Blue",
+      "Chemical Composition": "Oil-based ink (ethylene glycol)",
+      "Identification Reaction": "Ink dissolves in isopropanol, leaving behind faint color traces."
+    },
+    {
+      "Pen Name": "Bic Cristal",
+      "Ink Color": "Red",
+      "Chemical Composition": "Oil-based ink (alkylphenols)",
+      "Identification Reaction": "Reacts with iodine, producing a faint brownish hue."
+    },
+    {
+      "Pen Name": "Staedtler Fineliner",
+      "Ink Color": "Green",
+      "Chemical Composition": "Water-based ink (dye-based)",
+      "Identification Reaction": "Paper chromatography shows separation of ink components."
+    },
+    {
+      "Pen Name": "Uni-ball Eye",
+      "Ink Color": "Blue-Black",
+      "Chemical Composition": "Pigment-based ink",
+      "Identification Reaction": "Reacts with bleach, turning faint yellowish."
+    },
+    {
+      "Pen Name": "Luxor Marker",
+      "Ink Color": "Purple",
+      "Chemical Composition": "Alcohol-based ink (xylene)",
+      "Identification Reaction": "Ink dissolves in ethanol; no residue remains."
+    },
+    {
+      "Pen Name": "Faber-Castell Highlighter",
+      "Ink Color": "Yellow",
+      "Chemical Composition": "Water-based fluorescent dye",
+      "Identification Reaction": "Fluorescence under UV light confirms the dye type."
+    },
+    {
+      "Pen Name": "Rotring Isograph",
+      "Ink Color": "Black",
+      "Chemical Composition": "Pigment-based ink (acrylic)",
+      "Identification Reaction": "Reacts with acetone; ink particles clump and settle."
+    },
+    {
+      "Pen Name": "Dollar Fountain Pen",
+      "Ink Color": "Blue",
+      "Chemical Composition": "Water-based ink (dye-based)",
+      "Identification Reaction": "Reacts with vinegar, causing a slight color change to greenish-blue."
+    },
+    {
+      "Pen Name": "Parker Pen",
+      "Ink Color": "Black",
+      "Chemical Composition": "Solvent-based ink (phenol compounds)",
+      "Identification Reaction": "Heat exposure darkens the ink, indicating solvent-based properties."
+    }
+  ]
+}

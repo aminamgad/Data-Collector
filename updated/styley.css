@@ -1,0 +1,270 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* لون خلفية الصفحة */
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color:#0e3853 ; /* بني داكن */
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* توزيع الروابط بالتساوي */
+    margin: 0;
+    padding: 0;
+    gap: 30px; /* مسافات بين التبويبات */
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #EBDCCD; /* لون النص */
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #FFF8E7; /* لون النص عند التمرير */
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('public/network_security_audit_checklist-2-930x575 (1).jpg') no-repeat center center/cover; /* صورة خلفية غير مقصوصة */
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(198, 237, 255, 0.8); /*طبقة شفافةا */
+    z-index: 1;
+}
+
+/* Website Name Styling */
+.website-name {
+    font-size: 4.5rem; /* حجم الخط */
+    font-weight: bold;
+    color:#0e3853; /* الخط أبيض */
+    text-shadow: 2px 2px 5px #9fc9e0; /* تأثير الهايلايت البني */
+    z-index: 2;
+    position: relative;
+    margin: 0;
+}
+
+/* Subtitle Styling */
+.subtitle {
+    font-size: 2.5rem; /* حجم أصغر */
+    color:#0e3853; /* الخط أبيض */
+    text-shadow: 2px 2px 5px #9fc9e0; /* تأثير الهايلايت البني */
+    margin-top: 10px;
+    z-index: 2;
+    position: relative;
+}
+
+/* Button Styling */
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #FFFFFF; /* النص أبيض */
+    background-color:#0e3853; /* بني داكن */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 10px #FFFFFF; /* تأثير ظل بني */
+    z-index: 2;
+    position: relative;
+}
+
+.btn-primary:hover {
+    background-color:#0e3853; /* لون أفتح عند التمرير */
+    box-shadow: 0px 6px 15px rgba(92, 64, 51, 0.7); /* تضخيم الظل عند التمرير */
+}
+
+/* About Us Content Styling */
+.about-content {
+    text-align: center;
+    color: #FFF8E7; /* بيج فاتح */
+    z-index: 2;
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background:#0e3853; /* خلفية شفافة داكنة */
+    border-radius: 10px;
+}
+
+.about-content h1 {
+    font-size: 3.5rem; /* حجم كبير للعنوان */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+Highlight Box Styling */
+.highlight-box {
+    background :#0e3853(92, 64, 51, 0.9); /* خلفية شفافة داكنة */
+    padding: 20px 40px;
+    border-radius: 15px; /* حواف مستديرة */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* تأثير ظل */
+    z-index: 2;
+    position: relative;
+    margin-bottom: 20px; /* مسافة بين المربع والنص الآخر */
+}
+
+.highlight-box h1,
+.highlight-box h2 {
+    margin: 0;
+}
+
+/* About Us Highlight Styling */
+.highlight {
+    color: #34638a; /* بيج فاتح */
+    text-shadow: 4px 4px 8px #34638a , -4px -4px 8px#0e3853; /* تأثير مزدوج */
+    font-size: 3.5rem; /* حجم أكبر */
+    font-weight: bold; /* خط غامق */
+    display: inline-block; /* لضمان التحكم الكامل */
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: rgba(92, 64, 51, 0.9); /* خلفية شفافة داكنة */
+}
+
+/* Additional Large Text Below Highlight */
+.sub-highlight {
+    font-size: 2.5rem; /* حجم كبير */
+    font-weight: bold;
+    color: #FFF8E7; /* بيج فاتح */
+    text-shadow: 2px 2px 5px #0e3853; /* تأثير الهايلايت */
+    margin-bottom: 20px;
+}
+
+/* Paragraph Styling */
+.about-content p {
+    font-size: 1.5rem; /* حجم النص */
+    line-height: 1.8; /* تحسين المسافة بين الأسطر */
+    text-shadow: 1px 1px 3px #0e3853; /* تأثير هايلايت */
+}
+/* Reset and global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body and background */
+body {
+    background: url('public/network_security_audit_checklist-2-930x575 (1).jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #FFF;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Header styling */
+.header-container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.header-container h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.header-container p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Search box styling */
+.search-container {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.search-container input {
+    width: 70%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.search-container button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #FFF;
+    background-color: #0056b3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #003f7f;
+}
+
+/* Info message */
+.info-message {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #EBDCCD; /* لون ترابي */
+    padding: 10px 0;
+    color:#003f7f ; /* بني داكن */
+    font-size: 0.9rem;
+    position: relative;
+}
+
